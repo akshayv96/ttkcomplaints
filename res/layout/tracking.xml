@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="51dp"
+        android:text="@string/strng"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:textColor="@color/Black"
+        android:text="Use the Complaint id for further communication"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:text="Back to home page" />
+
+</RelativeLayout>
