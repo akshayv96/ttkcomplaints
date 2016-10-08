@@ -44,12 +44,7 @@ public class Mail extends javax.mail.Authenticator {
     _host = "smtp.gmail.com"; // default smtp server 
     _port = "465"; // default smtp port 
     _sport = "465"; // default socketfactory port 
-    _user = "healthcarettk"; // username 
-    _pass = "srittkcomp"; // password 
-    _from = "healthcarettk@gmail.com"; // email sent from 
-    _subject = "TTK HEALTHCARE - COMPLAINT REGISTRATION SUCCESSFUL."; // email subject 
-    _body = "Dear User \n Please note down your tracking id : "+track+". \n Use the tracking id for all further communications. \n With regards, \n TTK Healthcare team."; // email body 
- 
+
     _debuggable = false; // debug mode on or off - default off 
     _auth = true; // smtp authentication - default on 
  
